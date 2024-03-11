@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+text-align:centre;
+font-size:180%;
+background-image:url("register.jpg");
+background-size: 1550px 950px; 
+}
+h1{color:navy}
+label{color:black;}
+button{
+ color: aqua;
+ font-size: 30px;
+ border-radius: 25px;
+ 
+ }
+ .b1{
+ background-color: black;
+ border:solid;
+ }
+
+</style>
+</head>
+<body>
+<center>
+<h1 >Registration</h1>
+<form action="/register" method="post">
+<label>User Name:</label>
+<input type="text" name="username"/>
+<br/><br/>
+<label>Email ID:</label>
+<input type="email" name="email"/>
+<br/><br/>
+<label>Password:</label>
+<input type="password" name="password"/>
+<br/><br/>
+<label>Gender:</label>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="others">Others
+<br/><br/>
+<label>Role:</label>
+Admin<input type="radio" name="role" value="admin">
+User<input type="radio" name="role" value="user">
+<br/><br/>
+<label>Address:</label>
+<textarea name="address"></textarea>
+<br/><br/>
+<button class="b1">REGISTER</button>	
+</center>
+
+</form>
+
+
+</body>
+</html>

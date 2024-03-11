@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+text-align:centre;
+font-size:180%;
+background-image: url("addsongs.jpg");
+background-size: 1550px 900px;
+}
+button{
+ color: aqua;
+ font-size: 30px;
+ border-radius: 25px;
+}
+
+.b1{
+ background-color: black;
+ border:solid;
+ }
+ h1{color: darkmagenta}
+ label{
+  color: deeppink;
+ }
+
+</style>
+</head>
+<body>
+
+<center>
+<h1>ADD SONGS</h1>
+<form action="/addsongs" method="post">
+
+	<label>Song Name: </label>
+	<input type="text" name="name"/>
+		<br/><br/>
+	<label>Song Artist: </label>
+	<input type="text" name="artist"/>
+		<br/><br/>
+		<label>Song Genre: </label>
+	<input type="text" name="genre"/>
+		<br/><br/>
+		<label>Song Link: </label>
+	<input type="text" name="link"/>
+		<br/><br/>
+	<button class="b1">SUBMIT</button>
+	</center>
+
+</form>
+
+
+
+
+</body>
+</html>
